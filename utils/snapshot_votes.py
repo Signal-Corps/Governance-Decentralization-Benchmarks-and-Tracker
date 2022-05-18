@@ -5,7 +5,7 @@ import requests
 import time
 import sys
 
-def run_query(query): # A simple function to use requests.post to make the API call. Note the json= section.
+def run_query(query): 
     """
     Use requests.post to make API call to Snapshot GraphQL API
     Snapshot API Documentation: https://docs.snapshot.org/graphql-api
