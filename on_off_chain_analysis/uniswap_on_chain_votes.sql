@@ -9,14 +9,6 @@ SELECT
     WHEN contract_address = LOWER('0xC4e172459f1E7939D522503B81AFAaC1014CE6F6') THEN CONCAT('1.', event_inputs[ 'proposalId' ]::VARCHAR)
     WHEN contract_address = LOWER('0x408ED6354d4973f66138C91495F2f2FCbd8724C3') THEN CONCAT('2.', LPAD(event_inputs[ 'proposalId' ], 2,0)::VARCHAR)
   END as proposal,
-  /*
-  CASE
-  	WHEN contract_address = LOWER('0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F') THEN event_inputs[ 'proposalId' ]::VARCHAR
-  	WHEN contract_address = LOWER('0xC4e172459f1E7939D522503B81AFAaC1014CE6F6') THEN event_inputs[ 'proposalId' ]::VARCHAR
-  	WHEN contract_address = LOWER('0x408ED6354d4973f66138C91495F2f2FCbd8724C3') THEN LPAD(event_inputs[ 'proposalId' ], 2,0)::VARCHAR
-  END as proposal_id,
-*/
-  --CONCAT(version, proposal_id) as proposal, --proposal naming convention as per https://app.uniswap.org/#/vote?chain=mainnet with exception of correction for 2.9 to 2.09
   CASE 
     WHEN event_inputs[ 'support' ] = true OR event_inputs[ 'support' ]::VARCHAR = '1' then 'For' 
     WHEN event_inputs[ 'support' ] = false OR event_inputs[ 'support' ]::VARCHAR = '0' then 'Against'
