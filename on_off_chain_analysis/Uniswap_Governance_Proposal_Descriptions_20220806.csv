@@ -1,0 +1,17 @@
+﻿proposal,description_on,description_snapshot_temperature,description_snapshot_consensus,status_on
+0.1,Reduce UNI Governance Proposal & Quorum Thresholds,,,DEFEATED
+0.2,Retroactive Proxy Contract Airdrop — Phase One,"Retroactive Airdrop For Proxy Contract Users (e.g. 1Inch, Dharma, Matcha, etc.)",,DEFEATED
+0.3,Uniswap Grants Program v0.1,,,EXECUTED
+0.4,Reduce the UNI proposal submission threshold to 2.5M,,,EXECUTED
+1.1,DeFi Education Fund,Funding a Political Defense of DeFi,Consensus Check — Funding a Political Defense of DeFi,EXECUTED
+1.3,Upgrade Governance Contract to Compound's Governor Bravo,Temperature Check: Upgrade Governance Contract to Governor Bravo,Consensus Check: Upgrade Governance Contract to Governor Bravo,EXECUTED
+2.09,Add 1 Basis Point Fee Tier,,Consensus Check - Add 1 Basis Point Fee Tier,EXECUTED
+2.1,Should Uniswap v3 be deployed to Polygon?,Should Uniswap v3 be deployed to Polygon?,Consensus Check - Should Uniswap v3 be deployed to Polygon?,EXECUTED
+2.11,Should Uniswap Provide Voltz with v3 Additional Use Grant?,Temperature Check - Should Uniswap Provide Voltz with v3 Additional Use Grant?,Consensus Check -  Should Uniswap Provide Voltz with v3 Additional Use Grant,EXECUTED
+2.13,Should Uniswap governance contribute funding to the Nomic Foundation?,Should Uniswap governance contribute funding to the Nomic Foundation?,Consensus Check - Should Uniswap governance contribute funding to the Nomic Foundation?,EXECUTED
+2.14,Polygon 1bp Fee Tier,Temp Check - Should Uniswap add the 1bp fee tier to Polygon?,Consensus Check - Should Uniswap add the 1bp fee tier to Polygon?,EXECUTED
+2.16,Deploy Uniswap v3 on Celo,Should we deploy Uniswap V3 on Celo?,[Consensus Check] Should we deploy Uniswap V3 on Celo?,EXECUTED
+2.19,Deploy Uniswap V3 on Moonbeam,[Temperature Check] Deploy Uniswap V3 on Moonbeam,[Consensus Check] Deploy Uniswap V3 on Moonbeam,EXECUTED
+2.2,Deploy Uniswap v3 on Gnosis Chain,Temperature Check - Should Uniswap v3 be deployed to Gnosis Chain?,[Consensus Check] Should Uniswap v3 be deployed to Gnosis Chain?,EXECUTED
+2.22,Should the Uniswap community participate in the Protocol Guild Pilot?,[Temperature Check] Should the Uniswap community participate in the Protocol Guild Pilot?,,EXECUTED
+2.23,Optimism 1bp Fee Tier,,[Consensus Check] - Enable 1bp Fee Tier on UniswapV3 Optimism(L2),EXECUTED
